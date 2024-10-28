@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth;
+}
+
+@layer utilities{
+    .pattern{
+        background-image: url('/public/image/Fundo/pattern.png');
+        background-size: 100vh;
+        background-attachment: local;
+        background-clip: border-box;
+        background-blend-mode: overlay;
+    }
+}
+

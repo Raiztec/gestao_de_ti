@@ -1,0 +1,33 @@
+{
+  "public/image/Fundo/pattern.png": {
+    "file": "assets/pattern-C9wThNMb.png",
+    "src": "public/image/Fundo/pattern.png"
+  },
+  "resources/js/Pages/Home.tsx": {
+    "file": "assets/Home-IE6FVO-1.js",
+    "name": "Home",
+    "src": "resources/js/Pages/Home.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx"
+    ],
+    "css": [
+      "assets/Home-BfFWe5y2.css"
+    ]
+  },
+  "resources/js/app.tsx": {
+    "file": "assets/app-DqzfJ3PX.js",
+    "name": "app",
+    "src": "resources/js/app.tsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Home.tsx"
+    ],
+    "css": [
+      "assets/app-C85bBEWD.css"
+    ],
+    "assets": [
+      "assets/pattern-C9wThNMb.png"
+    ]
+  }
+}
